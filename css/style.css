@@ -149,12 +149,16 @@ section .container{
 
 .footer{
 	background-color: #fff;
-    padding: 70px 0;
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 10px 10px;
+   padding-bottom: 100px;
 }
+.footer-col img{
+    margin-top: -45px;
+}
+
 .footer-col h4{
 	font-size: 16px;
 	color: grey;
@@ -200,10 +204,10 @@ section .container{
 .footer img{
     width: 180px;
     height:80px;
-    margin-bottom:10px;
+    margin-top:-8px;
 }
 .footer p{
-    color: #000;
+    color: rgb(65, 62, 62);
     padding: 15px;
 }
 
@@ -233,24 +237,44 @@ section .container{
 
 .bottom-copyright p{
     font-size: 0.7rem;
-    margin-left: 110px;
+    margin-left: 80px;
 
 }
 .flexrow{
     padding-top: 20px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.flexrow .pp{
+    display: inline-flex;
+    margin: 25px 0 0 80px;
+}
+.flexrow .tu{
+    display: inline-flex;
+    margin: 25px 0 0 -12px;
+}
+.flexrow .rr{
+    display: inline-flex;
+    margin: 25px 0 0 -12px;
 }
 .flexrow p{
     font-size: 0.9rem;
+    font-weight: 650;
 }
 
 .flexcol{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 }
 
+.flexcol p{
+    color:rgb(73, 72, 72);
+    font-weight: 400;
+}
 
 /*responsive*/
 @media(max-width: 767px){
